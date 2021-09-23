@@ -7,6 +7,8 @@ import Header from './components/Header';
 import Project from './components/pages/Project'; 
 import ProjectGallery from './components/pages/ProjectGallery'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 
 function App() {
@@ -30,15 +32,18 @@ function App() {
     </Navbar.Collapse>
   </Container>
 </Navbar>*/ 
+<div className="body" >
+
     <Router>
-      <div >
       <Header />
+
         <Route exact path="/" component={Home} />
         <Route exact path="/project" component={Project}/>
         <Route exact path="/projectgallery" component={ProjectGallery} />
         <Route exact path="/contact" component={Contact} />
-      </div>
     </Router>
+    </div>
+
 
   );
 }

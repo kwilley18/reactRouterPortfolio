@@ -5,13 +5,13 @@
             "name":"Portfolio Design",
             "githubLink": "https://github.com/kwilley18/Bootstrap-Portfolio", 
             "deployedLink":"https://kwilley18.github.io/finalPortfolio/", 
-            "photo":"http://domain.co/path/to/image.jpg"
+            "photo":"https://www.pexels.com/photo/bouquet-of-flowers-on-couch-7470545/"
         },
         {
             "name" : "Weather-Dashboard",
             "githubLink": "https://github.com/kwilley18/Weather-Dashboard", 
             "deployedLink":"https://kwilley18.github.io/Weather-Dashboard/",
-            "photo":"bbb" 
+            "photo":"http://domain.co/path/to/image.jpg"
         }
 
       ]

@@ -39,13 +39,16 @@
   }
 }
 
-body{
-  background-color: black;
- /* background-image: url("bryan-goff-f7YQo-eYHdM-unsplash.jpg"); */ 
+.body{
+  background-image: url("./components/images/bruno-thethe-NzrMbDhPUr0-unsplash.jpg"); 
   background-position: cover;
   background-repeat: no-repeat; 
   background-attachment: fixed;
   background-size: cover;
   
 
+}
+
+.display-1, .display-4, .nav-item{
+  color: white;
 }
