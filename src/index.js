@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+//import fa-brands} from  '@fortawesome/free-solid-svg-icons'; 
+
+const element = <FontAwesomeIcon icon="fa-brands fa-github" />
 
 
 ReactDOM.render(

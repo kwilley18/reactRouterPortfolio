@@ -12,6 +12,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 function App() {
+  //const element = <FontAwesomeIcon icon = {fa-github} /> 
+
   return (
 /*<Navbar bg="light" expand="lg">
   <Container>
@@ -32,7 +34,7 @@ function App() {
     </Navbar.Collapse>
   </Container>
 </Navbar>*/ 
-<div className="body" >
+<body>
 
     <Router>
       <Header />
@@ -42,7 +44,7 @@ function App() {
         <Route exact path="/projectgallery" component={ProjectGallery} />
         <Route exact path="/contact" component={Contact} />
     </Router>
-    </div>
+    </body>
 
 
   );

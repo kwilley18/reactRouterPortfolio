@@ -8,7 +8,7 @@ function Header(){
   const location = useLocation(); 
   return(
     
-    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-expand-md">
       <a class="navbar-brand" href="#">  <img src={logo} width="30" height="24" class="d-inline-block align-text-top"/></a>
     
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,9 +19,7 @@ function Header(){
           <li class="nav-item">
             <Link to="/" className={location.pathname ==="/" ? "nav-link active" : "nav-link"}> Home</Link>
           </li>      
-          <li class="nav-item">
-            <Link to="/project" className={location.pathname ==="/project" ? "nav-link" : "nav-link active"}> Project </Link>
-          </li>
+      
           <li class="nav-item">
             <Link to="/projectgallery" className={location.pathname ==="/projectgallery" ? "nav-link" : "nav-link"}> Project Gallery </Link>
           </li>          

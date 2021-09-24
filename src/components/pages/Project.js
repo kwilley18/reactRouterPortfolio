@@ -40,10 +40,8 @@ function Project(){
 
     //render(){
         return(
-            <div className="body">
-                <h1 class="display-1">Projects</h1>
-                <div class="container">
-                    <div class="row">
+                <div class=" container p-5 rounded my-5">
+                    <div class="row rounded-3">
                             {data.map((info, key) => {
                                        var img = new Image();
                                        img.src = info.photo;
@@ -52,18 +50,19 @@ function Project(){
                                        //img.setAttribute("alt", "effy");
                                       // document.getElementById("photo").appendChild(img);
                                 return (
-                                    <div class="col-6">
+
+                                    <div class="col-6 mx-auto align-items m-3">
                                         <div key={key}>
-                                            <p>{info.name}</p>
-                                            <div class="container my-3">
-                                            <button button type="button" class="btn btn-light mx-auto"><a href={info.githubLink }>Github </a></button> 
-                                            <i class="fab fa-github"></i>
-                                            <button type="button" class="btn btn-light mx-auto"><a href={info.deployedLink}>Website</a> </button>
-                                            <p class="p" id="photo"><img src={info.photo} /></p>
-                                            </div>
+                                            <h1 class="display-4">{info.name}</h1>
+                                            <img src={info.photo} class="responsive mx-auto d-block rounded-3"  width="auto" height="300"></img> 
+                                                <div class="container my-3">
+                                                    <div class="col-md-12 text-center">
+                                                        <button button type="button" class="btn btn-light mx-auto"><a href={info.githubLink }>Github </a></button> 
+                                                        <button type="button" class="btn btn-light mx-auto"><a href={info.deployedLink}>Website</a> </button>
+                                                    </div>
+                                                </div>
                                         </div>
                                     </div>
-                                    
                                 );
                        
                             })}
@@ -73,7 +72,6 @@ function Project(){
                     </div>
 
                 </div>
-            </div>
         ); 
 }
 

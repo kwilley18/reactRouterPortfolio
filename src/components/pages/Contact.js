@@ -15,6 +15,8 @@ function Contact (props){
     return(
         <div>
             <h1 class="display-1">Contact</h1>
+                
+            <div class="container align-items text-center">
                 <form>
 
                     <div class="form-group">
@@ -31,14 +33,18 @@ function Contact (props){
                     
                 
                 </form>
+                <h1 class="display-4"><a href="https://www.linkedin.com/in/kristian-willey-621430153/">LinkedIn</a></h1>
+                <h1 class="display-4"><a href="https://github.com/kwilley18">     <FontAwesomeIcon icon="fa-brands fa-github" />GitHub</a></h1>
+           
 
-                <h1 class="display-4">LinkedIn</h1>
-                <h1 class="display-4">GitHub</h1>
-                <FontAwesomeIcon icon="fa-brands fa-github" />
+                <h1 class="display-4">Email Address: kristianwilley@gmail.com</h1>
+                <h1 class="display-4"><a href="../res.pdf" download>Resume
+  
+</a></h1>
+                
 
-                <h1 class="display-4">Email Address</h1>
-                <h1 class="display-4">Resume</h1>
-
+            </div>
+          
 
 
      </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Space+Mono&family=Montserrat&display=swap');
+
 .App {
   text-align: center;
   background-color: black;
@@ -16,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1d273a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,16 +41,47 @@
   }
 }
 
-.body{
-  background-image: url("./components/images/bruno-thethe-NzrMbDhPUr0-unsplash.jpg"); 
-  background-position: cover;
+body{
+  background-image: url("./components/images/spiral.png"); 
+  background-position: center;
   background-repeat: no-repeat; 
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 500vh;
+  height: 100%; 
+  margin: 0; 
+
   
 
 }
-
+a:link,a:active,h1{
+  text-decoration: none;
+}
+.display-1{
+  font-family: 'Space Mono', cursive; 
+}
+.display-4{
+  font-family: 'Montserrat', cursive; 
+}
 .display-1, .display-4, .nav-item{
+  color: white;
+  text-decoration: none;
+
+}
+.project{
+  height: 200px;
+  align-items: center;
+}
+
+div.row{
+  background-color: black;
+}
+.nav-item, .navbar-nav, .nav-link{
+  color: white; 
+}
+.navbar{
+  background-color: black;
+  color: white;
+}
+#navbarNav{
   color: white;
 }
