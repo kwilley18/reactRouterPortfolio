@@ -6,9 +6,9 @@ This website is a Front End Web Developer portfolio that is created by using Rea
 
 ## Installation 
 
-npm install 
-npm i --save bootstrap 
-npm start 
+`npm install` 
+`npm i --save bootstrap` 
+`npm start` 
 
 ## Questions 
 
