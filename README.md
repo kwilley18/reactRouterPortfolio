@@ -13,7 +13,8 @@ This website is a Front End Web Developer portfolio that is created by using Rea
 
 `npm install` 
 `npm i --save bootstrap` 
-`npm start` 
+`npm install emailjs-com --save`
+`npm start`
 
 <img src="Screen Shot 2021-09-23 at 9.23.21 PM.png">
 
