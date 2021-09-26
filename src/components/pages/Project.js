@@ -7,38 +7,6 @@ import { data } from './data.json';
 
 function Project(){
 
-  
-        //this.state ={
-           // data,
-                /*githublink: jsonData.githublink, 
-                deployedLink: jsonData.deployedLink,
-                photo: jsonData.photo*/ 
-            
-
-            
-            //console.log("JSON" , jsonData[0].deployedLink); 
-
-                /*data: {
-                    githubLink: "KRKRKR", 
-                    deployedLink:"GGGGG",
-                    photo:"KKK",
-                },
-                data2:{
-                    githubLink: "eeeR", 
-                    deployedLink:"aaaa",
-                    photo:"bbb",  
-                },*/ 
-                //console.log(data); 
-
-
-
-
-
-       
-  
-
-
-    //render(){
         return(
                 <div class=" container p-5 rounded my-5">
                     <div class="row rounded-3">
@@ -47,8 +15,7 @@ function Project(){
                                        img.src = info.photo;
                                        console.log(info.photo)
                                        img.setAttribute("class", "p");
-                                       //img.setAttribute("alt", "effy");
-                                      // document.getElementById("photo").appendChild(img);
+              
                                 return (
 
                                     <div class="col-6 mx-auto align-items m-3">
@@ -57,8 +24,8 @@ function Project(){
                                             <img src={info.photo} class="responsive mx-auto d-block rounded-3"  width="auto" height="300"></img> 
                                                 <div class="container my-3">
                                                     <div class="col-md-12 text-center">
-                                                        <button button type="button" class="btn btn-light mx-auto"><a href={info.githubLink }>Github </a></button> 
-                                                        <button type="button" class="btn btn-light mx-auto"><a href={info.deployedLink}>Website</a> </button>
+                                                        <button type="button" class="btn btn-light m-3"><a href={info.githubLink}>Github </a></button> 
+                                                        <button type="button" class="btn btn-light m-3"><a href={info.deployedLink}>Website</a> </button>
                                                     </div>
                                                 </div>
                                         </div>
@@ -76,7 +43,7 @@ function Project(){
 }
 
 
-const ProjectData = (props) => {
+/*const ProjectData = (props) => {
     //const {data} = props; 
     return(
         <div>
@@ -89,15 +56,7 @@ const ProjectData = (props) => {
 
     
 }
-
-const addImage = (file) => {
-    var img = new Image(); 
-    var photo = file; 
-    img.src = file.data.photo; 
-    console.log("I" + img.src); 
-    photo.appendChild(img); 
-}
-
+*/
 
 
 export default Project; 
