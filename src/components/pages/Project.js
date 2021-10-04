@@ -12,16 +12,16 @@ function Project(){
                     <div class="row rounded-3">
                             {data.map((info, key) => {
                                        var img = new Image();
-                                       img.src = info.photo;
-                                       console.log(info.photo)
-                                       img.setAttribute("class", "p");
+                                       //img.src = info.photo;
+                                       //console.log(info.photo)
+                                      // img.setAttribute("class", "p");
               
                                 return (
 
-                                    <div class="col-6 mx-auto align-items m-3">
+                                    <div class="col-sm-6 mx-auto align-items m-3">
                                         <div key={key}>
                                             <h1 class="display-4">{info.name}</h1>
-                                            <img src={info.photo} class="responsive mx-auto d-block rounded-3"  width="auto" height="300"></img> 
+                                            <img src={info.photo} class="responsive rounded-3 center" ></img> 
                                                 <div class="container my-3">
                                                     <div class="col-md-12 text-center">
                                                         <button type="button" class="btn btn-light m-3"><a href={info.githubLink}>Github </a></button> 
