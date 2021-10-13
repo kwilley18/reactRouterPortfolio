@@ -2,7 +2,9 @@
 
 ## Description 
 
-This website is a Front End Web Developer portfolio that is created by using React router. 
+This website is a Front End Web Developer portfolio that is created by using React router. The website is deployed 
+through Netlify. 
+
 ## Table of Contents
 * [Installation](#installation) 
 * [Usage](#usage) 
