@@ -18,7 +18,8 @@ through Netlify.
 `npm install emailjs-com --save`
 `npm start`
 
-<img src="Screen Shot 2021-09-23 at 9.23.21 PM.png">
+
+<a href="https://kwilleydevelopments.netlify.app"><img src="Screen Shot 2021-09-23 at 9.23.21 PM.png"></a>
 
 ## Contribution
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
