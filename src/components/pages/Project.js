@@ -6,8 +6,8 @@ import { data } from './data.json';
 
 
 function Project(){
- const istrue = true; 
-        return(
+
+    return(
                 <div className="container p-5 rounded my-5 responsive col-sm-8">
                     <div class="row rounded-3">
                             { data.map((info, key) => {      
