@@ -93,6 +93,14 @@ div.row{
   max-width: 120px; 
   min-height: 100vh;*/ 
 }
+.grid-container {
+  display: grid; 
+}
+.projectImage{
+  width:"44em";
+  height:"54em"; 
+  align-items: center;
+}
 .nav-icon{
   display: none; 
   font-size: 2rem; 
@@ -161,5 +169,8 @@ img{
   }
   .display-1{
     text-align: center;
+  }
+  .btn{
+    text-decoration: none;
   }
 }

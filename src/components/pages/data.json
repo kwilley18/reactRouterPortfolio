@@ -17,12 +17,12 @@
             "name" : "Weather-Dashboard",
             "githubLink": "https://github.com/kwilley18/Weather-Dashboard", 
             "deployedLink":"https://kwilley18.github.io/Weather-Dashboard/",
-            "photo":"https://images.pexels.com/photos/9651328/pexels-photo-9651328.png?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            "photo":"https://images.pexels.com/photos/9651328/pexels-photo-9651328.png?auto=compress&cs=tinysrgb&dpr=2&w=1260"
         }, 
         {
           "name" : "Read-Me Generator",
           "githubLink": "https://github.com/kwilley18/readMeGenerator", 
-          "deployedLink":"https://kwilley18.github.io/readMeGenerator/",
+          "deployedLink":"",
           "photo": "https://images.pexels.com/photos/9659937/pexels-photo-9659937.png?cs=srgb&dl=pexels-kristian-willey-9659937.jpg&fm=jpg"
         },
         {

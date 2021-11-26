@@ -6,31 +6,42 @@ import { data } from './data.json';
 
 
 function Project(){
-
+ const istrue = true; 
         return(
-                <div class=" container p-5 rounded my-5">
+                <div className="container p-5 rounded my-5 responsive col-sm-8">
                     <div class="row rounded-3">
-                            {data.map((info, key) => {
-                                       var img = new Image();
-                                       //img.src = info.photo;
-                                       //console.log(info.photo)
-                                      // img.setAttribute("class", "p");
-              
-                                return (
-
-                                    <div class="col-sm-6 mx-auto align-items m-3">
-                                        <div key={key}>
-                                            <h1 class="display-4">{info.name}</h1>
-                                            <img src={info.photo} class="responsive rounded-3 center" ></img> 
-                                                <div class="container my-3">
-                                                    <div class="col-md-12 text-center">
-                                                        <button type="button" class="btn btn-light m-3"><a href={info.githubLink}>Github </a></button> 
-                                                        <button type="button" class="btn btn-light m-3"><a href={info.deployedLink}>Website</a> </button>
-                                                    </div>
+                            { data.map((info, key) => {      
+                                if( info.deployedLink !== ''){
+                                    return ( 
+                                                <div key={key}>
+                                                    <h1 className="display-4">{info.name}</h1>
+                                                    <img src={info.photo} class="responsive mx-auto d-block rounded-3" style={{ alignSelf: 'center' }}></img> 
+                                                        <div className="container my-3">
+                                                            <div className="col-md-12 text-center">
+                                        
+                                                                <button type="button" class="btn btn-light m-3"><a href={info.githubLink}>Github </a></button> 
+                                                                <button type="button" class="btn btn-light m-3"><a href={info.deployedLink}>Website</a> </button>
+                                                            </div>
+                                                        </div>
                                                 </div>
-                                        </div>
-                                    </div>
-                                );
+                                            );
+            
+                            }   
+                                else {
+                                    return ( 
+                                                <div key={key}>
+                                                    <h1 className="display-4">{info.name}</h1>
+                                                    <img src={info.photo} class="responsive mx-auto d-block rounded-3" style={{ alignSelf: 'center' }}></img> 
+                                                        <div className="container my-3">
+                                                            <div className="col-md-12 text-center">
+                                        
+                                                                <button type="button" class="btn btn-light m-3"><a href={info.githubLink}>Github </a></button> 
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                         );    
+                                }    
+                
                        
                             })}
                            
