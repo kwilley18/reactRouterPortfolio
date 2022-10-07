@@ -47,8 +47,7 @@ body{
 }
 a:link,a:active,h1{
   text-decoration: none;
-  font-family: 'Bebas Neue', cursive; 
-  color: black; 
+  font-family: 'Bebas Neue', cursive; ; 
 
 }
 /*.display-1{
