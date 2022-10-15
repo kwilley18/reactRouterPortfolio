@@ -24,7 +24,7 @@ function Project(){
                                             <img src={info.photo} class="responsive rounded-3 center" ></img> 
                                                 <div class="container my-3">
                                                     <div class="col-md-12 text-center">
-                                                        <button type="button" class="btn btn-light m-3"><a href={info.githubLink}>Github </a></button> 
+                                                        <a href={info.githubLink} class="btn btn-light m-3">Github </a>
                                                         <button type="button" class="btn btn-light m-3"><a href={info.deployedLink}>Website</a> </button>
                                                     </div>
                                                 </div>
